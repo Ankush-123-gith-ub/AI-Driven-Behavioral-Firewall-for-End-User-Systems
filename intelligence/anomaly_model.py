@@ -37,4 +37,13 @@ class AnomalyModel:
             return 0.0
         score = -self.model.decision_function([feature_vector])[0]
         return min(max(score, 0.0), 1.0)
+    
+
+    ##############################---Process----#####################################
+
+    
+
+    #################################################################################
+
+
  
