@@ -1,50 +1,35 @@
 # response/enforcer.py
 
-import os
-import signal
+from response.process_killer import ProcessKiller
+from response.file_quarantine import FileQuarantine
+from response.alert_manager import AlertManager
+from response.response_policy import ResponsePolicy
 
 
 class Enforcer:
-    def enforce(self, verdict, file_event, reasons):
-        """
-        Enforce action based on verdict.
-        """
 
-        print("\n=== ENFORCEMENT ACTION ===")
-        print(f"Verdict: {verdict}")
-        print(f"Process ID: {file_event.pid}")
-        print(f"File: {file_event.file_path}")
-        print("Reasons:")
-        for r in reasons:
-            print(f" - {r}")
+    def __init__(self):
+        self.killer = ProcessKiller()
+        self.quarantine = FileQuarantine()
+        self.alert = AlertManager()
+        self.policy = ResponsePolicy()
 
-        if verdict == "MALICIOUS":
-            self._kill_process(file_event.pid)
+    def enforce(self, event, decision):
 
-        elif verdict == "SUSPICIOUS":
-            self._restrict_network(file_event.pid)
+        actions = self.policy.decide_action(decision.verdict)
 
-        elif verdict == "SAFE":
-            self._allow(file_event.pid)
+        if not actions:
+            return
 
-    def _kill_process(self, pid):
-        """
-        Kill malicious process.
-        """
-        try:
-            os.kill(pid, signal.SIGTERM)
-            print(f"[ACTION] Process {pid} terminated.")
-        except Exception as e:
-            print(f"[ERROR] Failed to kill process {pid}: {e}")
+        print("\n========== RESPONSE ==========")
 
-    def _restrict_network(self, pid):
-        """
-        Placeholder for firewall restriction.
-        """
-        print(f"[ACTION] Network access restricted for process {pid} (placeholder).")
+        if "kill" in actions:
+            self.killer.kill(event.pid)
 
-    def _allow(self, pid):
-        """
-        Allow execution (no action).
-        """
-        print(f"[ACTION] Process {pid} allowed.")
+        if "quarantine" in actions:
+            self.quarantine.quarantine(event.file_path)
+
+        if "alert" in actions:
+            self.alert.alert(f"{event.file_name} marked as {decision.verdict}")
+
+        print("================================\n")

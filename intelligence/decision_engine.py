@@ -1,35 +1,72 @@
-from analysis.features import build_feature_vector
-from analysis.baseline import store_feature_vector, load_baseline_vectors
-from intelligence.anomaly_model import AnomalyModel
+# intelligence/decision_engine.py
+
+from intelligence.rules_engine import RulesEngine
+from intelligence.anomaly_engine import AnomalyEngine
+from intelligence.threat_intel import ThreatIntel
+from intelligence.fusion_engine import FusionEngine
+from analysis.feature_builder import FeatureBuilder
+
+class DecisionResult:
+    def __init__(self):
+        self.rule_score = 0.0
+        self.anomaly_score = 0.0
+        self.threat_score = 0.0
+        self.final_score = 0.0
+        self.verdict = "ALLOW"
+
+    def pretty_print(self):
+        print("\n========== DECISION ==========")
+        print(f"Rule Score: {round(self.rule_score, 3)}")
+        print(f"Anomaly Score: {round(self.anomaly_score, 3)}")
+        print(f"Threat Score: {round(self.threat_score, 3)}")
+        print(f"Final Score: {round(self.final_score, 3)}")
+        print(f"Verdict: {self.verdict}")
+        print("================================\n")
+
 
 class DecisionEngine:
+
     def __init__(self):
-        self.known_bad_hashes = {"bad123", "evil456"}
-        self.anomaly_model = AnomalyModel()
+        self.rules = RulesEngine()
+        self.anomaly = AnomalyEngine()
+        self.threat = ThreatIntel()
+        self.fusion = FusionEngine()
+        self.feature_builder = FeatureBuilder()
 
-        # Train once if baseline exists
-        baseline = load_baseline_vectors()
-        if baseline:
-            self.anomaly_model.train(baseline)
+    def decide(self, event):
 
-    def decide(self, file_event):
-        reasons = []
+        result = DecisionResult()
 
-        # Known malware
-        if file_event.file_hash_sha256 in self.known_bad_hashes:
-            return "MALICIOUS", ["Known malware hash"]
+        # Rule score
+        result.rule_score = self.rules.evaluate(event)
 
-        vector = build_feature_vector(file_event)
+        # Build feature vector
+        feature_vector = self.feature_builder.build(event)
 
-        # Store SAFE behavior as baseline
-        store_feature_vector(vector)
+        # Anomaly score
+        result.anomaly_score = self.anomaly.evaluate(feature_vector)
 
-        anomaly_score = self.anomaly_model.score(vector)
+        # Threat score
+        result.threat_score = self.threat.evaluate(event.file_hash)
 
-        if anomaly_score > 0.7:
-            return "SUSPICIOUS", [f"Anomalous behavior ({anomaly_score:.2f})"]
+        # 🚨 IMMEDIATE BLOCK IF KNOWN MALICIOUS
+        if result.threat_score == 1.0:
+            result.final_score = 1.0
+            result.verdict = "BLOCK"
+            return result
 
-        if file_event.first_seen and not file_event.signed:
-            return "SUSPICIOUS", ["First-time unsigned execution"]
+        # Normal fusion if not malicious
+        result.final_score = self.fusion.fuse(
+            result.rule_score,
+            result.anomaly_score,
+            result.threat_score
+        )
 
-        return "SAFE", ["Normal behavior"]
+        if result.final_score >= 0.75:
+            result.verdict = "BLOCK"
+        elif result.final_score >= 0.50:
+            result.verdict = "SUSPICIOUS"
+        else:
+            result.verdict = "ALLOW"
+
+        return result
