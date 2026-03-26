@@ -41,6 +41,8 @@ Unlike basic systems, this firewall inspects:
 
 ---
 
+<img width="1024" height="1536" alt="ChatGPT Image Mar 26, 2026, 10_00_18 PM" src="https://github.com/user-attachments/assets/1f354716-84f8-4dac-bb7e-79a036500fcd" />
+
 ## 🏗️ Architecture Overview
 
 ### 🔍 Sensor Layer (Data Collection)
