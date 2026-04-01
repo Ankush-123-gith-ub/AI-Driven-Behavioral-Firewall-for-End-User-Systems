@@ -4,7 +4,7 @@ from response.process_killer import ProcessKiller
 from response.file_quarantine import FileQuarantine
 from response.alert_manager import AlertManager
 from response.response_policy import ResponsePolicy
-
+from response.event_logger import EventLogger
 
 class Enforcer:
 
@@ -13,8 +13,12 @@ class Enforcer:
         self.quarantine = FileQuarantine()
         self.alert = AlertManager()
         self.policy = ResponsePolicy()
+        self.logger = EventLogger()
 
     def enforce(self, event, decision):
+
+        # 🔥 ALWAYS LOG (even ALLOW)
+        self.logger.log(event, decision)
 
         actions = self.policy.decide_action(decision.verdict)
 
@@ -22,6 +26,10 @@ class Enforcer:
             return
 
         print("\n========== RESPONSE ==========")
+
+        if event.file_path.startswith("C:\\Windows"):
+            print("[Response] Skipping system file")
+            return
 
         if "kill" in actions:
             self.killer.kill(event.pid)

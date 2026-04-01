@@ -10,6 +10,9 @@ class FileExecutionEvent:
         self.file_age_seconds = None
         self.entropy = None
         self.signature_matches = []
+        self.network_score = 0.0
+        self.registry_flag = False
+        self.process_cmdline = ""
 
     def pretty_print(self):
         print("\n========== FILE EVENT ==========")

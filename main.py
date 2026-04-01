@@ -11,8 +11,8 @@ def main():
     feature_builder = FeatureBuilder()
     baseline_manager = BaselineManager()
 
-    file_path = r"C:\Users\Asus\Pictures\Screenshots\IMG-20251124-WA0011.jpg"
-    pid = 1234
+    file_path = r"C:\Users\Asus\Documents\WORK-SPACE\test_downloads\test_block.bat"
+    pid = 1234  # fake PID
 
     event = scanner.scan(file_path, pid)
 
@@ -39,7 +39,7 @@ def main():
     event.pretty_print()
     decision.pretty_print()
     enforcer.enforce(event, decision)
-
+    
 
 if __name__ == "__main__":
     main()
