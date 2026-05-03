@@ -1,68 +1,18 @@
 [
     {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1864,
-        "rule_score": 0.0,
+        "time": "03:04:51",
+        "file": "SearchHost.exe",
+        "pid": 13444,
+        "rule_score": 0.115,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
-        "final_score": 0.0,
+        "final_score": 0.035,
         "verdict": "ALLOW"
     },
     {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1896,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1900,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1936,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1956,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:20",
-        "file": "svchost.exe",
-        "pid": 1960,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:23",
-        "file": "BraveCrashHandler64.exe",
-        "pid": 1972,
+        "time": "03:04:53",
+        "file": "msedge.exe",
+        "pid": 13468,
         "rule_score": 0.3,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -70,729 +20,9 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "11:37:56",
-        "file": "Code.exe",
-        "pid": 1992,
-        "rule_score": 0.48,
-        "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
-    },
-    {
-        "time": "11:37:56",
-        "file": "svchost.exe",
-        "pid": 2032,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:56",
-        "file": "svchost.exe",
-        "pid": 2040,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:56",
-        "file": "svchost.exe",
-        "pid": 2056,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:37:56",
-        "file": "svchost.exe",
-        "pid": 2064,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:38:28",
-        "file": "Code.exe",
-        "pid": 2120,
-        "rule_score": 0.48,
-        "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
-    },
-    {
-        "time": "11:38:29",
-        "file": "svchost.exe",
-        "pid": 2124,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:00",
-        "file": "rsAppUI.exe",
-        "pid": 2184,
-        "rule_score": 0.39,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.117,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "IntelCpHDCPSvc.exe",
-        "pid": 2216,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "svchost.exe",
-        "pid": 2224,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "svchost.exe",
-        "pid": 2240,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "svchost.exe",
-        "pid": 2328,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "svchost.exe",
-        "pid": 2444,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:02",
-        "file": "svchost.exe",
-        "pid": 2476,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:03",
-        "file": "explorer.exe",
-        "pid": 2484,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:03",
-        "file": "svchost.exe",
-        "pid": 2736,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:03",
-        "file": "svchost.exe",
-        "pid": 2764,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:04",
-        "file": "TextInputHost.exe",
-        "pid": 2780,
-        "rule_score": 0.015,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.004,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:07",
-        "file": "helperservice.exe",
-        "pid": 2804,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:09",
-        "file": "backgroundTaskHost.exe",
-        "pid": 2824,
-        "rule_score": 0.1,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.03,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:45",
-        "file": "Code.exe",
-        "pid": 2848,
-        "rule_score": 0.48,
-        "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
-    },
-    {
-        "time": "11:39:47",
-        "file": "conhost.exe",
-        "pid": 2904,
-        "rule_score": 0.1,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.03,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 2912,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 3028,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 3160,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 3168,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 3176,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:47",
-        "file": "svchost.exe",
-        "pid": 3224,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "spoolsv.exe",
-        "pid": 3264,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "svchost.exe",
-        "pid": 3320,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "svchost.exe",
-        "pid": 3376,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "svchost.exe",
-        "pid": 3384,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "svchost.exe",
-        "pid": 3488,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:50",
-        "file": "svchost.exe",
-        "pid": 3536,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:52",
-        "file": "IntelAudioService.exe",
-        "pid": 3664,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:54",
-        "file": "WUDFHost.exe",
-        "pid": 3744,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:54",
-        "file": "svchost.exe",
-        "pid": 3752,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:39:56",
-        "file": "ss_conn_service2.exe",
-        "pid": 3768,
-        "rule_score": 0.39,
-        "anomaly_score": 0.0,
-        "threat_score": 0.013,
-        "final_score": 0.12,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:07",
-        "file": "warp-svc.exe",
-        "pid": 3812,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "AsusOSD.exe",
-        "pid": 3888,
-        "rule_score": 0.49,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.147,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 3992,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 4052,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "AsusOptimization.exe",
-        "pid": 4080,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 4088,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 4108,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 4116,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:09",
-        "file": "svchost.exe",
-        "pid": 4148,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:12",
-        "file": "ipf_helper.exe",
-        "pid": 4152,
-        "rule_score": 0.39,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.117,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:12",
-        "file": "svchost.exe",
-        "pid": 4184,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:12",
-        "file": "svchost.exe",
-        "pid": 4244,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:14",
-        "file": "conhost.exe",
-        "pid": 4260,
-        "rule_score": 0.1,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.03,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:14",
-        "file": "svchost.exe",
-        "pid": 4268,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:15",
-        "file": "svchost.exe",
-        "pid": 4328,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:17",
-        "file": "RtkAudUService64.exe",
-        "pid": 4388,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:20",
-        "file": "WUDFHost.exe",
-        "pid": 4468,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:20",
-        "file": "svchost.exe",
-        "pid": 4496,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:20",
-        "file": "svchost.exe",
-        "pid": 4552,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:23",
-        "file": "AsusOptimizationStartupTask.exe",
-        "pid": 4596,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:25",
-        "file": "AppleMobileDeviceService.exe",
-        "pid": 4600,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:27",
-        "file": "AsusScreenXpertHostService.exe",
-        "pid": 4620,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:29",
-        "file": "AsusPTPService.exe",
-        "pid": 4636,
-        "rule_score": 0.39,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.117,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:31",
-        "file": "mDNSResponder.exe",
-        "pid": 4652,
-        "rule_score": 0.39,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.117,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:33",
-        "file": "AsusSwitch.exe",
-        "pid": 4668,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:35",
-        "file": "AsusSystemDiagnosis.exe",
-        "pid": 4676,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:37",
-        "file": "AsusSystemAnalysis.exe",
-        "pid": 4684,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:38",
-        "file": "AsusAppService.exe",
-        "pid": 4692,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:38",
-        "file": "svchost.exe",
-        "pid": 4700,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:40",
-        "file": "AsusSoftwareManager.exe",
-        "pid": 4708,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:40",
-        "file": "svchost.exe",
-        "pid": 4720,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:43",
-        "file": "GlideXNearService.exe",
-        "pid": 4728,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:44",
-        "file": "DtsApo4Service.exe",
-        "pid": 4736,
-        "rule_score": 0.3,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.09,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:47",
-        "file": "ElevationService.exe",
-        "pid": 4744,
-        "rule_score": 0.405,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.121,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "11:40:49",
-        "file": "WsidService.exe",
-        "pid": 4752,
+        "time": "03:04:54",
+        "file": "StartMenuExperienceHost.exe",
+        "pid": 13568,
         "rule_score": 0.315,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -800,9 +30,9 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "11:40:49",
+        "time": "03:04:54",
         "file": "svchost.exe",
-        "pid": 4768,
+        "pid": 13636,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -810,9 +40,29 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "11:40:52",
-        "file": "OfficeClickToRun.exe",
-        "pid": 4776,
+        "time": "03:04:56",
+        "file": "steam.exe",
+        "pid": 13928,
+        "rule_score": 0.49,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:04:58",
+        "file": "SystemSettings.exe",
+        "pid": 13952,
+        "rule_score": 0.315,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.095,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:04:59",
+        "file": "RuntimeBroker.exe",
+        "pid": 14488,
         "rule_score": 0.3,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -820,19 +70,49 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "11:40:53",
-        "file": "GlideXRemoteService.exe",
-        "pid": 4828,
-        "rule_score": 0.3,
+        "time": "03:04:59",
+        "file": "svchost.exe",
+        "pid": 14532,
+        "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
-        "final_score": 0.09,
+        "final_score": 0.0,
         "verdict": "ALLOW"
     },
     {
-        "time": "11:40:55",
-        "file": "ipfsvc.exe",
-        "pid": 4836,
+        "time": "03:05:00",
+        "file": "ShellHost.exe",
+        "pid": 14652,
+        "rule_score": 0.2,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.06,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:02",
+        "file": "crashpad_handler.exe",
+        "pid": 14844,
+        "rule_score": 0.49,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:03",
+        "file": "SpotifyWidgetProvider.exe",
+        "pid": 15160,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:05",
+        "file": "steamwebhelper.exe",
+        "pid": 15180,
         "rule_score": 0.39,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -840,9 +120,89 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "11:40:56",
-        "file": "GlideXService.exe",
-        "pid": 4884,
+        "time": "03:05:08",
+        "file": "steamwebhelper.exe",
+        "pid": 15192,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:09",
+        "file": "WidgetService.exe",
+        "pid": 15224,
+        "rule_score": 0.2,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.06,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:10",
+        "file": "AsusSoftwareManagerAgent.exe",
+        "pid": 15300,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:12",
+        "file": "WhatsApp.Root.exe",
+        "pid": 15668,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:13",
+        "file": "ShellExperienceHost.exe",
+        "pid": 15692,
+        "rule_score": 0.415,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.124,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:15",
+        "file": "msedgewebview2.exe",
+        "pid": 15772,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:45",
+        "file": "claude.exe",
+        "pid": 15924,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:05:50",
+        "file": "ms-teams.exe",
+        "pid": 15928,
+        "rule_score": 0.49,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:06:18",
+        "file": "Beeper.exe",
+        "pid": 16040,
         "rule_score": 0.48,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -850,39 +210,9 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:23",
-        "file": "smss.exe",
-        "pid": 756,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "20:50:23",
-        "file": "svchost.exe",
-        "pid": 1060,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "20:50:25",
-        "file": "csrss.exe",
-        "pid": 1072,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "20:50:27",
-        "file": "wininit.exe",
-        "pid": 1156,
+        "time": "03:06:20",
+        "file": "rsHelper.exe",
+        "pid": 16064,
         "rule_score": 0.3,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -890,29 +220,9 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:29",
-        "file": "csrss.exe",
-        "pid": 1164,
-        "rule_score": 0.2,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.06,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "20:50:29",
-        "file": "svchost.exe",
-        "pid": 1208,
-        "rule_score": 0.0,
-        "anomaly_score": 0.0,
-        "threat_score": 0.0,
-        "final_score": 0.0,
-        "verdict": "ALLOW"
-    },
-    {
-        "time": "20:50:30",
-        "file": "winlogon.exe",
-        "pid": 1244,
+        "time": "03:06:22",
+        "file": "msedge.exe",
+        "pid": 16212,
         "rule_score": 0.3,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -920,29 +230,249 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:30",
-        "file": "services.exe",
-        "pid": 1296,
-        "rule_score": 0.2,
+        "time": "03:06:24",
+        "file": "msedgewebview2.exe",
+        "pid": 16300,
+        "rule_score": 0.39,
         "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
     },
     {
-        "time": "20:50:30",
-        "file": "LsaIso.exe",
-        "pid": 1320,
+        "time": "03:06:26",
+        "file": "msedgewebview2.exe",
+        "pid": 16304,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:06:59",
+        "file": "Beeper.exe",
+        "pid": 16456,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.144,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:01",
+        "file": "brave.exe",
+        "pid": 16656,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:04",
+        "file": "msedgewebview2.exe",
+        "pid": 16684,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:06",
+        "file": "msedgewebview2.exe",
+        "pid": 16692,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:08",
+        "file": "msedgewebview2.exe",
+        "pid": 16736,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:38",
+        "file": "Beeper.exe",
+        "pid": 16968,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.144,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:40",
+        "file": "msedgewebview2.exe",
+        "pid": 17120,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:41",
+        "file": "python.exe",
+        "pid": 17248,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:43",
+        "file": "msedgewebview2.exe",
+        "pid": 17348,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:46",
+        "file": "steamwebhelper.exe",
+        "pid": 17420,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:07:48",
+        "file": "msedgewebview2.exe",
+        "pid": 17432,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:16",
+        "file": "Beeper.exe",
+        "pid": 17580,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.144,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:18",
+        "file": "UserOOBEBroker.exe",
+        "pid": 17688,
         "rule_score": 0.3,
         "anomaly_score": 0.0,
-        "threat_score": 1.0,
-        "final_score": 1.0,
-        "verdict": "BLOCK"
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
     },
     {
-        "time": "20:50:31",
-        "file": "lsass.exe",
-        "pid": 1328,
+        "time": "03:08:19",
+        "file": "unsecapp.exe",
+        "pid": 17776,
+        "rule_score": 0.2,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.06,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:21",
+        "file": "brave.exe",
+        "pid": 17796,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:22",
+        "file": "PhoneExperienceHost.exe",
+        "pid": 17924,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:22",
+        "file": "svchost.exe",
+        "pid": 17948,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:22",
+        "file": "svchost.exe",
+        "pid": 18108,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:24",
+        "file": "MicrosoftStartFeedProvider.exe",
+        "pid": 18180,
+        "rule_score": 0.2,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.06,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:26",
+        "file": "msedge.exe",
+        "pid": 18208,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:31",
+        "file": "ms-teams.exe",
+        "pid": 18312,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:32",
+        "file": "svchost.exe",
+        "pid": 18364,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:08:33",
+        "file": "ctfmon.exe",
+        "pid": 18428,
         "rule_score": 0.1,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -950,9 +480,9 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:32",
+        "time": "03:08:33",
         "file": "svchost.exe",
-        "pid": 1348,
+        "pid": 18468,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -960,9 +490,29 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:32",
+        "time": "03:08:35",
+        "file": "msedgewebview2.exe",
+        "pid": 18532,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:05",
+        "file": "claude.exe",
+        "pid": 18608,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:05",
         "file": "svchost.exe",
-        "pid": 1396,
+        "pid": 18612,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -970,9 +520,19 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:32",
+        "time": "03:09:06",
+        "file": "msedge.exe",
+        "pid": 18636,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:06",
         "file": "svchost.exe",
-        "pid": 1464,
+        "pid": 18684,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -980,9 +540,39 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:32",
-        "file": "fontdrvhost.exe",
-        "pid": 1496,
+        "time": "03:09:08",
+        "file": "msedgewebview2.exe",
+        "pid": 18716,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:09",
+        "file": "AsusOSD.exe",
+        "pid": 18896,
+        "rule_score": 0.49,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:11",
+        "file": "TextInputHost.exe",
+        "pid": 19092,
+        "rule_score": 0.115,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.035,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:11",
+        "file": "svchost.exe",
+        "pid": 19116,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
@@ -990,13 +580,423 @@
         "verdict": "ALLOW"
     },
     {
-        "time": "20:50:32",
-        "file": "fontdrvhost.exe",
-        "pid": 1500,
+        "time": "03:09:12",
+        "file": "RuntimeBroker.exe",
+        "pid": 19164,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:13",
+        "file": "WinStore.App.exe",
+        "pid": 19480,
+        "rule_score": 0.1,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.03,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:17",
+        "file": "DataExchangeHost.exe",
+        "pid": 19484,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:19",
+        "file": "steamwebhelper.exe",
+        "pid": 19552,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:20",
+        "file": "SecurityHealthSystray.exe",
+        "pid": 19560,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:21",
+        "file": "RtkAudUService64.exe",
+        "pid": 19612,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:23",
+        "file": "msedgewebview2.exe",
+        "pid": 19684,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:23",
+        "file": "svchost.exe",
+        "pid": 19804,
         "rule_score": 0.0,
         "anomaly_score": 0.0,
         "threat_score": 0.0,
         "final_score": 0.0,
         "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:24",
+        "file": "mylbx.exe",
+        "pid": 19900,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.144,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:24",
+        "file": "svchost.exe",
+        "pid": 20092,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:24",
+        "file": "svchost.exe",
+        "pid": 20108,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:26",
+        "file": "steamwebhelper.exe",
+        "pid": 20124,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:28",
+        "file": "msedge.exe",
+        "pid": 20264,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:29",
+        "file": "utorrentie.exe",
+        "pid": 20464,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.013,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:30",
+        "file": "FileSyncHelper.exe",
+        "pid": 20520,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:32",
+        "file": "msedge.exe",
+        "pid": 20680,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:32",
+        "file": "svchost.exe",
+        "pid": 20888,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:34",
+        "file": "msedgewebview2.exe",
+        "pid": 21408,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:35",
+        "file": "msedge.exe",
+        "pid": 21464,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:35",
+        "file": "svchost.exe",
+        "pid": 21512,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:35",
+        "file": "svchost.exe",
+        "pid": 21676,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:37",
+        "file": "brave.exe",
+        "pid": 22052,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:37",
+        "file": "svchost.exe",
+        "pid": 22416,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:37",
+        "file": "svchost.exe",
+        "pid": 22636,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:37",
+        "file": "svchost.exe",
+        "pid": 23464,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:38",
+        "file": "aimgr.exe",
+        "pid": 23928,
+        "rule_score": 0.49,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.147,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:39",
+        "file": "RuntimeBroker.exe",
+        "pid": 24276,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:40",
+        "file": "msedge.exe",
+        "pid": 24320,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:42",
+        "file": "brave.exe",
+        "pid": 24380,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:44",
+        "file": "msedge.exe",
+        "pid": 24464,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.09,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:46",
+        "file": "SpotifyLauncher.exe",
+        "pid": 24592,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:47",
+        "file": "StoreDesktopExtension.exe",
+        "pid": 24620,
+        "rule_score": 0.0,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.0,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:09:48",
+        "file": "crashpad_handler.exe",
+        "pid": 24668,
+        "rule_score": 0.39,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.117,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:10:05",
+        "file": "Code.exe",
+        "pid": 24932,
+        "rule_score": 0.48,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.144,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:10:06",
+        "file": "WINWORD.EXE",
+        "pid": 25284,
+        "rule_score": 0.4,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.12,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:10:07",
+        "file": "dllhost.exe",
+        "pid": 25360,
+        "rule_score": 0.1,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 0.03,
+        "verdict": "ALLOW"
+    },
+    {
+        "time": "03:10:39",
+        "file": "powershell.exe",
+        "pid": 41712,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
+    },
+    {
+        "time": "03:11:11",
+        "file": "powershell.exe",
+        "pid": 33492,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
+    },
+    {
+        "time": "03:17:53",
+        "file": "powershell.exe",
+        "pid": 33492,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
+    },
+    {
+        "time": "03:18:08",
+        "file": "powershell.exe",
+        "pid": 33492,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
+    },
+    {
+        "time": "03:18:37",
+        "file": "powershell.exe",
+        "pid": 20588,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
+    },
+    {
+        "time": "03:19:23",
+        "file": "powershell.exe",
+        "pid": 14632,
+        "rule_score": 0.3,
+        "anomaly_score": 0.0,
+        "threat_score": 0.0,
+        "final_score": 1.0,
+        "verdict": "BLOCK"
     }
 ]
