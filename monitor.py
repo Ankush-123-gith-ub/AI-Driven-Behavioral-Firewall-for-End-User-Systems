@@ -21,7 +21,7 @@ class FileMonitorHandler(FileSystemEventHandler):
         self.scanner = FileScanner()
         self.engine = DecisionEngine()
         self.enforcer = Enforcer()
-        self.seen_files = set()  # 🔥 avoid duplicate scans
+        self.seen_files = set()  #  avoid duplicate scans
 
     def on_created(self, event):
         if event.is_directory:
@@ -29,18 +29,18 @@ class FileMonitorHandler(FileSystemEventHandler):
 
         file_path = event.src_path
 
-        # 🔥 Avoid duplicate scans
+        # Avoid duplicate scans
         if file_path in self.seen_files:
             return
         self.seen_files.add(file_path)
 
-        # 🔥 Skip non-executable files
+        #  Skip non-executable files
         if not file_path.lower().endswith((".exe", ".dll", ".bat", ".cmd", ".ps1")):
             return
 
         print(f"\n[Monitor] New file detected: {file_path}")
 
-        # 🔥 Wait to ensure file is fully written
+        #  Wait to ensure file is fully written
         time.sleep(0.5)
 
         self.process_file(file_path)
@@ -97,7 +97,7 @@ def start_monitor(path_to_watch):
                 if is_suspicious_registry(entry['value']):
                     print("[ALERT] Suspicious persistence detected!")
 
-                    # ✅ APPLY TO ALL ACTIVE EVENTS
+                    #  APPLY TO ALL ACTIVE EVENTS
                     for event in events_cache.values():
                         event.registry_flag = True
                         print("[DEBUG] REGISTRY FLAG SET TRUE")
@@ -124,7 +124,7 @@ def start_monitor(path_to_watch):
                     score = network_score(ip, port, process_name)
                     print("[DEBUG] Network Score:", score)
 
-                    # ✅ USE EXISTING EVENT
+                    #  USE EXISTING EVENT
                     event = events_cache.get(pid)
 
                     if event:
@@ -155,14 +155,14 @@ def start_monitor(path_to_watch):
                     if not event:
                         continue
 
-                    # ✅ STORE IN CACHE
+                    #  STORE IN CACHE
                     events_cache[pid] = event
 
-                    # ✅ ATTACH CMDLINE
+                    #  ATTACH CMDLINE
                     event.process_cmdline = str(proc.get("cmdline", "")).lower()                    
                     print("[DEBUG] CMDLINE ATTACHED:", cmdline)
 
-                    # 🔥 DECIDE
+                    #  DECIDE
                     decision = event_handler.engine.decide(event)
 
                     event.pretty_print()

@@ -1,4 +1,4 @@
-# sensors/process_layer/process_monitor.py
+# sensors/process_layer/process_monitor.py #
 
 import psutil
 
@@ -30,3 +30,4 @@ class ProcessMonitor:
                 continue
 
         return new_events
+
